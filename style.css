@@ -8,3 +8,7 @@
     --titulo: "Bebas Neue", sans-serif;
     --texto: "Raleway", sans-serif;
 }
+body{
+    background-color: var(--verde-azulado);
+    font-family: var(--texto);
+}
