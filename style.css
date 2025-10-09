@@ -11,4 +11,30 @@
 body{
     background-color: var(--verde-azulado);
     font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button{
+    font-family: var(--titulo);
+    background-color: var(--azul);
+    color: var(--laranja);
+    border: 2px solid var(--azul);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: var(--laranja);
+    color: var(--azul);
+    transition: 0.5s;
 }
