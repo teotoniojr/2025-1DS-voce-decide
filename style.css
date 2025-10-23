@@ -38,3 +38,12 @@ button:hover{
     color: var(--azul);
     transition: 0.5s;
 }
+
+.passo{
+    font-size: 24px;
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
