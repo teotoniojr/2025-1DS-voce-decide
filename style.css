@@ -47,3 +47,9 @@ button:hover{
 .passo.ativo{
     display: block;
 }
+
+img{
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+}
